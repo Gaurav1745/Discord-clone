@@ -1,0 +1,92 @@
+.chatHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  color: gray;
+  padding: 10px;
+}
+
+.chatHeader_hash {
+  color: gray;
+  font-size: 30px;
+  padding: 10px;
+}
+
+.chatHeader__left > h3 {
+  display: flex;
+  align-items: center;
+  color: white;
+}
+
+.chatHeader__right {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex: 0.5;
+}
+
+.chatHeader__right > .MuiSvgIcon-root {
+  margin: 5px;
+  cursor: pointer;
+}
+
+.chatHeader__right > .MuiSvgIcon-root:hover {
+  color: white;
+}
+
+.chatHeader__search {
+  display: flex;
+  border-radius: 3px;
+  color: gray;
+  background-color: #2f3135;
+  padding: 3px;
+}
+
+.chatHeader__search > input {
+  outline-width: 0;
+  background: transparent;
+  color: white;
+  border: none;
+}
+
+.chat__input {
+  display: flex;
+  color: lightgray;
+  align-items: center;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 5px;
+  border-top: 1px solid gray;
+  background-color: #474b53;
+}
+
+.chat__input > form > input {
+  padding: 15px;
+  background: transparent;
+  border: none;
+  outline-width: 0;
+  width: 100%;
+  color: white;
+  font-size: large;
+}
+
+.chat__input > form {
+  flex: 1;
+}
+
+.chat__input > form > button {
+  display: none;
+}
+
+.chat__inputIcons > .MuiSvgIcon-root {
+  margin: 5px;
+}
+
+.chat__messages {
+  flex: 1;
+  overflow: scroll;
+}
+
+.chatHeader__ExitAppIcon:hover {
+  color: #fff;
+}
